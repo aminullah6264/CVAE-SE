@@ -1,2 +1,4 @@
-# CVAE-SE
-Conditional Variational Autoencoder-based framework (CVAE-SM) is uncertainty quantification in image segmentation network
+
+# CVAE-SM: A Conditional Variational Autoencoder with Style Modulation for Efficient Uncertainty Quantification
+
+We're putting the final touches on the code and it will be available shortly.
