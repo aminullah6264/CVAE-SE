@@ -52,7 +52,7 @@ Dataset/
 │   └── severity_lv4/
 ```
 
-![Dataset](Dataset/d_r_47_grid.jpg)
+![Dataset](Dataset/DatasetExample.jpg)
 Example images from the dataset, demonstrating different levels of perturbations applied to underwater images for uncertainty quantification.
 
 
