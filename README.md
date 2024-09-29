@@ -35,6 +35,7 @@ cd CVAE-SM
 You can download the dataset used for training and testing from [Google Drive](https://drive.google.com/drive/folders/1dL5-hos6iCvAwG2qCPWT7DIbdND3y4_2?usp=sharing).
 Make sure to extract the dataset and place it in the Dataset directory before running the training script.
 
+```bash
 Dataset/
 ├── train/
 │   ├── images/
@@ -47,6 +48,8 @@ Dataset/
 │   ├── severity_lv2/
 │   ├── severity_lv3/
 │   └── severity_lv4/
+```
+
 
 
 
