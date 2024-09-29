@@ -15,13 +15,9 @@ Illustration of the proposed framework for uncertainty quantification in underwa
 - tqdm
 
 This method was tested in:
-- **GPU**: Tesla V100 GPU with 32 GB memory
+- **GPU**: Tesla V100 with 32 GB memory
 
-## Installation 
-To create a conda environment with the required packages, use the following command:
-```bash
-conda env create -f cvae.yml
-```
+
 
 
 ## Usage
@@ -29,6 +25,12 @@ Clone the repository:
 ```bash
 git clone https://github.com/aminullah6264/CVAE-SE.git
 cd CVAE-SM
+```
+
+## Installation 
+To create a conda environment with the required packages, use the following command:
+```bash
+conda env create -f cvae.yml
 ```
 
 ## Dataset
@@ -86,7 +88,7 @@ The visualization code will be uploaded shortly. Stay tuned for updates!
 
 ## Citation
 If you find this code useful, please cite our paper:
-
+```bash
 @article{ullah2024cvae_sm,
   author={Ullah, Amin and Yan, Taiqing and Fuxin, Li},
   booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)}, 
@@ -97,5 +99,7 @@ If you find this code useful, please cite our paper:
   pages={10786-10792},
   doi={10.1109/ICRA57147.2024.10611160}
   }
+```
+
 
 
