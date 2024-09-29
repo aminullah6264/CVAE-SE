@@ -1,7 +1,7 @@
 # CVAE-SM
 This repository contains the code for the paper [**"CVAE-SM: A Conditional Variational Autoencoder with Style Modulation for Efficient Uncertainty Quantification."**](https://ieeexplore.ieee.org/abstract/document/10611160) The work focuses on enhancing uncertainty quantification in object segmentation, particularly within challenging underwater environments.
 
-![Framework](Dataset/Framework.png)
+![Framework](Dataset/Framework.jpg)
 Illustration of the proposed framework for uncertainty quantification in underwater object segmentation. The framework is comprised of four primary modules: the Prior Encoder and Posterior Encoder generate conditional latent codes, the Style Modulator adjusts latent codes and content features, and the Decoder generates final segmentation maps. During testing, we sample latent codes from a normal distribution guided by the mean and standard deviation of the Prior encoder. This approach yields a diverse array of segmentation maps, facilitating robust uncertainty quantification.
 
 
