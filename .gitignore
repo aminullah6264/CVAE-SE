@@ -1,0 +1,7 @@
+*.pth
+*.pyc
+Dataset/test/*
+Dataset/train/*
+Weights/*
+Results/*
+Dataset.zip
