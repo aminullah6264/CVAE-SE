@@ -73,7 +73,7 @@ python train.py --DATASET_PATH ./Dataset/train \
 ## Testing
 
 ```bash
-python test.py --dataset_dir /nfs/stak/users/ullaham/hpc-share/RSA_Project/2023/segmentation-pytorch/test_val/ \
+python test.py --dataset_dir ./Dataset/test_val/ \
                --model_checkpoint ./Weights/trained_model_20240926_214052/CVAE_SE_FCN_with_Modulation_SingleGPU.pth \
                --results_dir ./Results/ \
                --num_ensembles 10
